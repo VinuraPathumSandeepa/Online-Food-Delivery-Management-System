@@ -30,20 +30,61 @@ public class Restaurant {
     }
 
     // Getters and Setters
-    public String getRestaurantId() { return restaurantId; }
-    public void setRestaurantId(String restaurantId) { this.restaurantId = restaurantId; }
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
-    public String getLocation() { return location; }
-    public void setLocation(String location) { this.location = location; }
-    public String getCuisineType() { return cuisineType; }
-    public void setCuisineType(String cuisineType) { this.cuisineType = cuisineType; }
-    public String getOperatingHours() { return operatingHours; }
-    public void setOperatingHours(String operatingHours) { this.operatingHours = operatingHours; }
-    public String getContactInfo() { return contactInfo; }
-    public void setContactInfo(String contactInfo) { this.contactInfo = contactInfo; }
-    public String getStatus() { return status; }
-    public void setStatus(String status) { this.status = status; }
+    public String getRestaurantId() { 
+        return restaurantId; 
+    }
+    
+    public void setRestaurantId(String restaurantId) { 
+        this.restaurantId = restaurantId; 
+    }
+    
+    public String getName() { 
+        return name; 
+    }
+    
+    public void setName(String name) {
+        this.name = name; 
+    }
+    
+    public String getLocation() { 
+        return location; 
+    }
+    
+    public void setLocation(String location) {
+        this.location = location; 
+    }
+    
+    public String getCuisineType() { 
+        return cuisineType; 
+    }
+    
+    public void setCuisineType(String cuisineType) {
+        this.cuisineType = cuisineType; 
+    }
+    
+    public String getOperatingHours() { 
+        return operatingHours; 
+    }
+    
+    public void setOperatingHours(String operatingHours) { 
+        this.operatingHours = operatingHours; 
+    }
+    
+    public String getContactInfo() {
+        return contactInfo;
+    }
+    
+    public void setContactInfo(String contactInfo) { 
+        this.contactInfo = contactInfo; 
+    }
+    
+    public String getStatus() { 
+        return status; 
+    }
+    
+    public void setStatus(String status) { 
+        this.status = status; 
+    }
 
     public String restaurantToString() {
         return restaurantId + "|" + name + "|" + location + "|" + cuisineType + "|" + operatingHours + "|" + contactInfo + "|" + status;
