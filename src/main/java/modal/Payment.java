@@ -34,18 +34,42 @@ public class Payment {
     }
 
     // Getters and Setters
-    public String getPaymentId() { return paymentId; }
-    public void setPaymentId(String paymentId) { this.paymentId = paymentId; }
-    public User getUser() { return user; }
-    public void setUser(User user) { this.user = user; }
-    public double getAmount() { return amount; }
-    public void setAmount(double amount) { this.amount = amount; }
-    public String getPaymentMethod() { return paymentMethod; }
-    public void setPaymentMethod(String paymentMethod) { this.paymentMethod = paymentMethod; }
-    public String getStatus() { return status; }
-    public void setStatus(String status) { this.status = status; }
-    public String getPaymentDate() { return paymentDate; }
-    public void setPaymentDate(String paymentDate) { this.paymentDate = paymentDate; }
+    public String getPaymentId() { 
+        return paymentId; 
+    }
+    public void setPaymentId(String paymentId) { 
+        this.paymentId = paymentId; 
+    }
+    public User getUser() { 
+        return user; 
+    }
+    public void setUser(User user) { 
+        this.user = user; 
+    }
+    public double getAmount() { 
+        return amount; 
+    }
+    public void setAmount(double amount) { 
+        this.amount = amount; 
+    }
+    public String getPaymentMethod() { 
+        return paymentMethod; 
+    }
+    public void setPaymentMethod(String paymentMethod) { 
+        this.paymentMethod = paymentMethod; 
+    }
+    public String getStatus() { 
+        return status; 
+    }
+    public void setStatus(String status) { 
+        this.status = status; 
+    }
+    public String getPaymentDate() { 
+        return paymentDate; 
+    }
+    public void setPaymentDate(String paymentDate) { 
+        this.paymentDate = paymentDate; 
+    }
 
     public String paymentToString() {
         return paymentId + "|" + amount + "|" + paymentMethod + "|" + status + "|" + paymentDate + "|" + user.getUserId();
